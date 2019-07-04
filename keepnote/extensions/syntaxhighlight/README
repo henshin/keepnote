@@ -1,0 +1,11 @@
+Syntax highlight extension
+==========================
+
+Author : Cherti Mehdi (mehdi@cherti.name)
+
+This extension provides inserting code with
+syntax highlighting of any language.
+
+Note that this extension requires pygments python
+library to be installed.
+(http://pygments.org/)

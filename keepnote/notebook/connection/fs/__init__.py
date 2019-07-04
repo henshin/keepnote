@@ -1200,7 +1200,8 @@ class NoteBookConnectionFS (BaseNoteBookConnectionFS):
         Ensure attributes follow the notebook schema.
         """
         was_clean = True
-        masked = {'childrenids', 'parentids'}
+        #masked = {'childrenids', 'parentids'}
+        masked = set(["parentids", "childrenids"])
 
         # Set default attrs if needed.
         defaults = {

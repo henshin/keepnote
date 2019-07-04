@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+  <dict>
+    <key>version</key>
+    <string>1.0</string>
+    <key>name</key>
+    <string>Syntax highlight</string>
+    <key>author</key>
+    <string>Cherti Mehdi</string>
+    <key>email</key>
+    <string>mehdi@cherti.name</string>
+    <key>website</key>
+    <string>http://mehdi.cherti.name</string>
+    <key>description</key>
+    <string>Used for inserting code with syntax highlighting.
+	    The pygments python library is required by this extension.
+	    (http://pygments.org/)
+    </string>
+  </dict>
+</extension>
