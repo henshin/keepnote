@@ -61,7 +61,9 @@ class DialogSyntaxHighlight(object):
     def create_dialog(self):
         self.dialog = gtk.Window(gtk.WINDOW_TOPLEVEL)
         self.dialog.set_default_size(400, 400)
-        self.dialog.set_title("")
+        self.dialog.set_title("Syntax Highlighter")
+        self.dialog.set_transient_for(self.window)
+        self.dialog.set_position(gtk.WIN_POS_CENTER_ON_PARENT)
 
         vbox = gtk.VBox()
         
@@ -224,7 +226,9 @@ class DialogSyntaxHighlight(object):
         self.textview.grab_focus()
 
     def show(self):
+        
         self.dialog.show_all()
+        self.dialog.set_position(gtk.WIN_POS_CENTER_ON_PARENT)
 
     def hide(self):
         self.dialog.hide()
